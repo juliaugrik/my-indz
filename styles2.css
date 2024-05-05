@@ -1,0 +1,163 @@
+
+.body { /* стилі для тіла сайту */
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.header { /* стилі для "голови" сайту */
+  font-family: 'Roboto', sans-serif;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav { /* стилі для навігації сайту */
+  background-color: #666;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav a { /* стилі для написів навігації сайту */
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.nav a:hover { /* стилі для написів навігації сайту */
+  color: #ffd700;
+}
+
+.section { /* стилі для секцій сайту */
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+.section:hover { /* стилі для переміщення секцій сайту */
+  transform: translateY(-5px);
+}
+
+.footer {  /* стилі для "низу" сайту */
+  font-family: 'Roboto', sans-serif;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.text { /* стилі для якогось текста*/
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.rounded-image {  /* стилі для "контенеру" зображення */
+  width: 300px;
+  height: 200px;
+  border-radius: 20px; 
+  overflow: hidden; 
+}
+
+.rounded-image img { /* стилі для зображення */
+  width: 100%; 
+  height: auto; 
+}
+
+.main-page-text-container { /* стилі контейнеру з заповненням зворотнього зв'язку */
+  border-radius: 40px;
+  background: #FFF;
+  padding-top: 6px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 60px;
+  box-sizing: border-box;
+  
+}
+
+.form { /* стилі для форм */
+  border-radius: 40px;
+  background: #FFF;
+  width: 573px;
+  padding-top: 32px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 60px;
+  box-sizing: border-box;
+  margin: auto;
+  text-align: center;
+  
+}
+ 
+.form-title { /* стилі для назв форм */
+  color: #1B1D1F;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-top: 32px;
+  margin-bottom: 12px;
+  
+}
+
+.form-descr { /* стилі для назв форм */
+  color: #1B1D1F;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 0px;
+  margin-bottom: 24px;
+  
+}
+
+.form-input { /* стилі для галочки */
+  width: 300px;
+  height: 60px;
+  border-radius: 8px;
+  border: 1px solid var(--Blue, #005BBB);
+  background: #FFF;
+  color: #1B1D1F;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-left: 12px;
+  padding-right: 12px;
+
+}
+.form-button { /* стилі для кнопки */
+  border-radius: 8px;
+  background: #ff0aca;
+  border: none;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px; 
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  cursor: pointer;
+  margin-top: 48px;
+
+}
+
+.container { /* стилі для контейнера логотипа */
+  position: relative;
+  width: 100%;
+  height: 50px;
+  
+}
+
+.logo { /* стилі для логотипа */
+  position: absolute; 
+  bottom: 50px; 
+  right: 10px; 
+  width: 150px; 
+  height: auto;
+}
